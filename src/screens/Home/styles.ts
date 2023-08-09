@@ -1,6 +1,6 @@
 import { StyleSheet } from 'react-native';
 
-export const stylesHome = StyleSheet.create({
+export const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: '#131016',
@@ -45,5 +45,10 @@ export const stylesHome = StyleSheet.create({
   buttonText: {
     color: '#fff',
     fontSize: 24,
+  },
+  emptyList: {
+    fontSize: 16,
+    color: '#fff',
+    textAlign: 'center',
   },
 });
